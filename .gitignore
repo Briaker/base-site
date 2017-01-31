@@ -1,0 +1,5 @@
+challenge_files/
+node_modules/
+junk/
+*.zipgit 
+.DS_Store
