@@ -1,6 +1,6 @@
 {
   "name": "base-site",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "autoprefixer-stylus": "0.10.0",
