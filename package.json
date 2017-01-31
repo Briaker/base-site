@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "concurrently --names \"browsersync, stylus\" --prefix name \"npm run browsersync\" \"npm run watch\"",
-    "browsersync": "browser-sync start --reload-delay 500 --server --startPath \"./src\"",
+    "browsersync": "browser-sync start --config bs-config.js",
     "watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
   }
 }
